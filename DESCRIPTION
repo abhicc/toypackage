@@ -1,9 +1,9 @@
 Package: toypackage
-Title: What the Package Does (One Line, Title Case)
+Title: Some Convenience Functions
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Abhishek", "Chakraborty", , "ac.xav89@gmail.com", role = c("aut", "cre"))
+Description: Provides convenience functions for some common tasks.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
