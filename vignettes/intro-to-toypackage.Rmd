@@ -1,0 +1,36 @@
+---
+title: "Introduction to toypackage"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to toypackage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The `topackage` provides convenience functions for some common tasks. To install this package from GitHub, use
+
+```{r}
+# install.packages("devtools")
+# install.packages("remotes")
+devtools::install_github("abhicc/toypackage")
+```
+
+Load the package using the following code.
+
+```{r setup}
+library(toypackage)
+```
+
+The package contains three functions
+
+* `strsplit1`
+
+* `min_max_scale`
+* `theme_academic`
