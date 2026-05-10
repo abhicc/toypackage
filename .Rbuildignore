@@ -8,3 +8,5 @@
 ^toypackage.*\.tar\.gz$
 ^toypackage.*\.tgz$
 ^README\.Rmd$
+^doc$
+^Meta$

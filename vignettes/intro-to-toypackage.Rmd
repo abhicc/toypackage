@@ -16,9 +16,9 @@ knitr::opts_chunk$set(
 
 The `topackage` provides convenience functions for some common tasks. To install this package from GitHub, use
 
-```{r}
-# install.packages("devtools")
+```{r, eval=FALSE}
 # install.packages("remotes")
+# install.packages("devtools")
 devtools::install_github("abhicc/toypackage")
 ```
 

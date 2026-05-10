@@ -9,3 +9,5 @@ toypackage.Rcheck/
 toypackage*.tar.gz
 toypackage*.tgz
 inst/doc
+/doc/
+/Meta/
