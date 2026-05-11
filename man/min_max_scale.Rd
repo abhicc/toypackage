@@ -18,4 +18,6 @@ Performs min-max scaling on a numeric vector
 \examples{
 x <- 1:5
 min_max_scale(x)
+
+min_max_scale(toy_data$test_score)
 }

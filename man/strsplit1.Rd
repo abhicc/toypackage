@@ -20,4 +20,7 @@ Split a string
 \examples{
 x <- "alfa, bravo, charlie, delta"
 strsplit1(x, split = ",")
+
+first_subject_words <- toy_data$recalled_words[1]
+strsplit1(first_subject_words, split = ", ")
 }
