@@ -24,4 +24,7 @@ A numeric vector
 x <- 1:5
 min_max_scale(x)
 #> [1] 0.00 0.25 0.50 0.75 1.00
+
+min_max_scale(toy_data$test_score)
+#> [1] 0.0000000 0.8043478 0.2173913 1.0000000 0.4782609
 ```

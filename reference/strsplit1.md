@@ -28,4 +28,8 @@ A character vector
 x <- "alfa, bravo, charlie, delta"
 strsplit1(x, split = ",")
 #> [1] "alfa"     " bravo"   " charlie" " delta"  
+
+first_subject_words <- toy_data$recalled_words[1]
+strsplit1(first_subject_words, split = ", ")
+#> [1] "cat"   "dog"   "mouse"
 ```
