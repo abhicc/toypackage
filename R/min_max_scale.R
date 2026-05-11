@@ -8,6 +8,8 @@
 #' @examples
 #' x <- 1:5
 #' min_max_scale(x)
+#'
+#' min_max_scale(toy_data$test_score)
 min_max_scale <- function(x)
 {
   checkmate::assert_numeric(x)
