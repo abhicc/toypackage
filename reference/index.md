@@ -8,3 +8,5 @@
   : Split a string
 - [`theme_academic()`](https://abhicc.github.io/toypackage/reference/theme_academic.md)
   : Applies theme_academic
+- [`toy_data`](https://abhicc.github.io/toypackage/reference/toy_data.md)
+  : A toy dataset for demonstrating the functions in toypackage
