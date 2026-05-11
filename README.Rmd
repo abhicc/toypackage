@@ -37,6 +37,29 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(toypackage)
-## basic example code
+```
+
+#### strspit1 example
+
+```{r}
+first_subject_words <- toy_data$recalled_words[1]
+strsplit1(first_subject_words, split = ", ")
+```
+
+#### min_max_scale example
+
+```{r}
+min_max_scale(toy_data$test_score)
+```
+
+#### theme_academic example
+
+```{r, fig.align='center'}
+library(ggplot2)
+ggplot(toy_data, aes(x = reaction_time, y = test_score)) +
+geom_point(size = 4, color = "steelblue") +
+labs(title = "Faster Reaction Times Correlate with Higher Scores",
+x = "Reaction Time (seconds)", y = "Scaled Test Score (0 to 1)") +
+theme_academic(base_size = 14)
 ```
 
