@@ -3,7 +3,7 @@ pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   intro-to-toypackage: intro-to-toypackage.html
-last_built: 2026-05-11T15:34Z
+last_built: 2026-05-11T15:53Z
 urls:
   reference: https://abhicc.github.io/toypackage/reference
   article: https://abhicc.github.io/toypackage/articles
